@@ -7,6 +7,7 @@ import { UserListComponent } from './features/dashboard/user-list/user-list.comp
 import { AddParticipantsComponent } from './features/participants/add-participants/add-participants.component';
 import { EditParticipantsComponent } from './features/participants/edit-participants/edit-participants.component';
 import { StatisticsComponent } from './features/dashboard/statistics/statistics.component';
+import { LoginComponent } from './core/components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StatisticsComponent } from './features/dashboard/statistics/statistics.
     UserListComponent,
     AddParticipantsComponent,
     EditParticipantsComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
