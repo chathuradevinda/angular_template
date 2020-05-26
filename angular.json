@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CulturEngine"
+    }
+  },
+  "defaultProject": "CulturEngine",
+  "cli": {
+    "analytics": false
+  }
 }
