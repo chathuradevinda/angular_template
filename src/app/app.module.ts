@@ -8,6 +8,8 @@ import { AddParticipantsComponent } from './features/participants/add-participan
 import { EditParticipantsComponent } from './features/participants/edit-participants/edit-participants.component';
 import { StatisticsComponent } from './features/dashboard/statistics/statistics.component';
 import { LoginComponent } from './core/components/login/login.component';
+import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
+import { WelcomePageComponent } from './views/welcome-page/welcome-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LoginComponent } from './core/components/login/login.component';
     AddParticipantsComponent,
     EditParticipantsComponent,
     StatisticsComponent,
-    LoginComponent
+    LoginComponent,
+    PageNotFoundComponent,
+    WelcomePageComponent
   ],
   imports: [
     BrowserModule
