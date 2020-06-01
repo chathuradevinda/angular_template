@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TimelineComponent } from './timeline/timeline.component';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
-  declarations: [TimelineComponent],
+  declarations: [
+
+  ],
   imports: [
     CommonModule
   ]
 })
-export class DashboardModule { }
+export class SurveyModule { }
