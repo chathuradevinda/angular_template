@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-load-existing-participants',
   templateUrl: './load-existing-participants.component.html',
-  styleUrls: ['./load-existing-participants.component.scss']
 })
 export class LoadExistingParticipantsComponent implements OnInit {
 
