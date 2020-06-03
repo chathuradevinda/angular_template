@@ -1,0 +1,10 @@
+<div class="right" *ngIf="customers$">
+
+  <h3>Customers</h3>
+  <ul>
+    <li (click)="removeCustomer(customer.name)" *ngFor="let customer of customers$ | async">
+      <a [href]="customer.location" target="_blank">{{ customer.name }}</a>
+    </li>
+  </ul>
+
+</div>

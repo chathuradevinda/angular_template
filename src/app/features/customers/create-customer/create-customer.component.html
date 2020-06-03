@@ -1,0 +1,14 @@
+<div class="container">
+  <br>
+  <span class="ui-float-label">
+    <input id="float-input" type="text" size="30" pInputText #name/>
+    <label for="float-input">Name</label>
+  </span>
+  <br>
+  <span class="ui-float-label">
+    <input id="float-input" type="text" size="30" pInputText #location/>
+    <label for="float-input">Location</label>
+  </span>
+  <br>
+  <button pButton type="button" label="Click" (click)="addCustomer(name.value, location.value)"></button>
+</div>
